@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z11kakunin</title>
+</head>
+
+<body>
+    <form action="kakunin2.html" method="get">
+        <p> 名前<br>
+            <input type="text" name="simei">
+        </p>
+
+        <p>
+            備考<br>
+            <textarea name="bikou" rows="10" cols="30"></textarea>
+
+        </p>
+
+        <p>
+            服の色<br>
+            <input type="checkbox" name="color" value="red">赤
+            <input type="checkbox" name="color" value="blue">青
+            <input type="checkbox" name="color" value="green">緑
+        </p>
+
+        <p>
+            季節<br>
+            <input type="radio" name="season" value="haru">春
+            <input type="radio" name="season" value="natu">夏
+            <input type="radio" name="season" value="aki">秋
+            <input type="radio" name="season" value="fuyu">冬
+        </p>
+
+        <p>
+            メニュー<br>
+            <select name="food">
+                <option value="curry">カレー</option>
+                <option value="bread">パン</option>
+            </select>
+        </p>
+
+        <p>
+            <input type="submit" value="送信">
+            <input type="reset" value="リセット">
+        </p>
+
+
+    </form>
+</body>
+
+</html>

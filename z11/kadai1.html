@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>課題1</title>
+    <link rel=”stylesheet”   href="css/style.css">
+
+
+</head>
+
+<body>
+    <img src="img/ooyama.jpg">
+    <hr>
+    <h1>大山アンケート </h1>
+
+
+    <form action="#" method="get">
+        <div>
+            <p>
+                氏名<br>
+                <input type="text" name="name">
+            </p>
+        </div>
+
+        <div id="gender">
+            <p>
+                性別
+                <input type="radio" name="seibetu" value="1" checked>男
+                <input type="radio" name="seibetu" value="2">女
+                <input type="radio" name="seibetu" value="3">不明
+            </p>
+        </div>
+
+        <div class="sampl">
+            <p>
+                年齢
+                <select name="age">
+                    <option value="9">9歳以下</option>
+                    <option value="10">10代</option>
+                    <option value="20" selected>20代</option>
+                    <option value="30">30代</option>
+                    <option value="40">40代</option>
+                    <option value="50">50歳以上</option>
+
+                </select>
+            </p>
+        </div>
+
+
+        <div>
+            <p>
+                希望のコース(複数選択可能)<br>
+                <input type="checkbox" name="course" value="1">コース1<br>
+                <input type="checkbox" name="course" value="2">コース2<br>
+                <input type="checkbox" name="course" value="3">コース3<br>
+                <input type="checkbox" name="course" value="4">コース4<br>
+                <input type="checkbox" name="course" value="5">コース5<br>
+            </p>
+        </div>
+
+        <div>
+
+        </div>
+        <p>
+            ご意見を記入してください<br>
+            <textarea name="iken" rows="4" cols="10"></textarea>
+        </p>
+        <div>
+            <p>
+                <input type="submit" value="送信">
+                <input type="reset" value="消去">
+            </p>
+        </div>
+
+    </form>
+
+    <hr>
+    <p>
+    <h1>アンケート記入のお願い</h1>
+    <ul>
+        <li>すべての項目を入力してください。</li>
+        <li>入力後、送信ボタンをクリックしてください。</li>
+        <li>取り消す場合は、消去ボタンをクリックしてください。</li>
+    </ul>
+
+    </p>
+
+</body>
+
+</html>

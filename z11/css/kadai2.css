@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(241, 213, 170);
+    background-image: url(../img/back.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: aquamarine;
+}
+
+a:visited{
+    color: chocolate;
+}
+
+a:focus{
+    color: blue;
+}
+
+a:hover{
+    color: chartreuse;
+}
+
+.title{
+    letter-spacing: 10px;
+    border-top:solid 1px;
+    border-bottom:solid 1px;
+
+}
+
+p{
+    line-height: 180%;
+}
+
+.kome{
+    color: crimson;
+}
+
+#setumei{
+    font-family: serif;
+}
